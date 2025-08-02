@@ -12,9 +12,37 @@
     tr:nth-child(even) { background-color: #f2f2f2; }
     caption { caption-side: top; font-weight: bold; font-size: 1.2em; padding: 10px; }
   </style>
+  <style>
+  #author-info {
+    position: fixed;
+    top: 20px;
+    right: 30px;
+    background-color: #ffffffdd;
+    border: 1px solid #ccc;
+    padding: 10px 15px;
+    font-size: 0.85em;
+    color: #333;
+    z-index: 1000;
+    box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 6px;
+  }
+  #author-info a {
+    color: #003366;
+    text-decoration: none;
+  }
+  #author-info a:hover {
+    text-decoration: underline;
+  }
+</style>
+
 </head>
 <body>
-
+<div id="author-info">
+  <strong>Prepared by:</strong> Dr. Abdullah Al-Mamun<br>
+  Augusta University<br>
+  <p>Director, High-Performance & Secure Data Computing (HPSDC) Lab</p>
+  <p><strong>Contact:</strong> <a href="mailto:hpctalk@gmail.com">hpctalk@gmail.com</a></p>
+</div>
 <h1>Top A/A* Systems Conferences/Journals</h1>
 
 <!-- Distributed Systems & Networking -->
@@ -380,10 +408,10 @@
   </tbody>
 </table>
 
-<footer style="margin-top: 50px; padding-top: 20px; border-top: 1px solid #ccc; font-size: 0.9em; color: #555;">
+<!-- <footer style="margin-top: 50px; padding-top: 20px; border-top: 1px solid #ccc; font-size: 0.9em; color: #555;">
   <p><strong>Prepared by:</strong> Dr. [Your Full Name], Assistant Professor, Augusta University</p>
   <p>Director, High-Performance & Secure Data Computing (HPSDC) Lab</p>
   <p><strong>Contact:</strong> <a href="mailto:hpctalk@gmail.com">hpctalk@gmail.com</a></p>
-</footer>
+</footer> -->
 </body>
 </html>
